@@ -8,36 +8,36 @@ A powerful web-based tool for **generating, verifying, and recovering** BCrypt h
 
 ---
 
-## 🎯 What is BCrypt?
+## What is BCrypt?
 
 BCrypt is a **one-way hashing algorithm** used to securely store passwords. Unlike encryption, hashing is **irreversible** — you cannot "decrypt" a bcrypt hash back to the original password. However, you can:
 
-- ✅ **Generate** a bcrypt hash from any password
-- ✅ **Verify** if a password matches a given hash
-- ✅ **Recover** weak/common passwords using dictionary attacks
+-  **Generate** a bcrypt hash from any password
+-  **Verify** if a password matches a given hash
+-  **Recover** weak/common passwords using dictionary attacks
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔒 Generate Hash
+### Generate Hash
 Convert any plain text password into a secure bcrypt hash with adjustable salt rounds (cost factor).
 
 ### ✓ Verify Hash
 Check if a password matches a bcrypt hash — useful for testing authentication systems.
 
-### 🔓 Password Recovery (Crack Hash)
+### Password Recovery (Crack Hash)
 Forgot the password for your project's database? This tool helps you recover it using:
 
 | Attack Type | Description | Best For |
 |-------------|-------------|----------|
-| **📚 Wordlist Attack** | Upload a `.txt` file with passwords | Large password lists like `rockyou.txt` |
-| **🔢 Brute Force** | Try all character combinations | Short passwords (1-6 chars) |
-| **✏️ Custom List** | Enter guesses manually | Known password patterns |
+| ** Wordlist Attack** | Upload a `.txt` file with passwords | Large password lists like `rockyou.txt` |
+| ** Brute Force** | Try all character combinations | Short passwords (1-6 chars) |
+| ** Custom List** | Enter guesses manually | Known password patterns |
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Option 1: Open Directly
 Simply open `index.html` in any modern browser — no server required!
@@ -53,7 +53,7 @@ npx serve
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 ### Generating a Hash
 1. Enter your password
@@ -78,7 +78,7 @@ npx serve
 
 ---
 
-## 📚 Getting Wordlists
+## Getting Wordlists
 
 For effective password recovery, you'll need wordlists. Popular options:
 
@@ -88,7 +88,7 @@ For effective password recovery, you'll need wordlists. Popular options:
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **BCrypt cannot be decrypted** — only weak/common passwords can be "cracked" via guessing
 - **Salt rounds matter** — Higher rounds = exponentially slower to crack
@@ -97,7 +97,7 @@ For effective password recovery, you'll need wordlists. Popular options:
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 - **Library**: [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) for browser-based bcrypt operations
 - **No dependencies**: Single HTML file with embedded CSS/JS
@@ -106,7 +106,7 @@ For effective password recovery, you'll need wordlists. Popular options:
 
 ---
 
-## 📝 Use Cases
+## Use Cases
 
 1. **Forgot admin password** — Recover access to your own projects
 2. **Testing security** — Verify password strength in your applications
@@ -115,18 +115,14 @@ For effective password recovery, you'll need wordlists. Popular options:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit issues and pull requests!
 
 ---
 
-## 📄 License
+## License
 
 MIT License — Use freely for personal and commercial projects.
 
 ---
-
-<p align="center">
-  Built with ❤️ for developers
-</p>
