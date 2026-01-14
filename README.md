@@ -1,4 +1,4 @@
-# 🔐 BCrypt Generator
+# BCrypt Generator
 
 A powerful web-based tool for **generating, verifying, and recovering** BCrypt hashed passwords. Perfect for developers who need to work with bcrypt hashes or recover forgotten passwords from their projects.
 
